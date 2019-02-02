@@ -1,0 +1,19 @@
+index:
+    path: /api/all
+    controller: App\Controller\CRMController::getAll
+getUser:
+    path: /api/{id}
+    controller: App\Controller\CRMController::getOneUser
+
+delete:
+    path: /api/delete/{id}
+    controller: App\Controller\CRMController::delete
+post:
+    path: /api/post
+    controller: App\Controller\CRMController::post
+edit:
+    path: /api/edit/{id}
+    controller: App\Controller\CRMController::edit
+api_login_check:
+    path: /api/login_check
+
